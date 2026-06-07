@@ -41,7 +41,7 @@ def weather_helper():
           jacket = input("Are you wearing a warm jacket ?").lower()
           if jacket in ["yes", "yeah", "yup"] : 
              print("Glad to hear you're dressed appropriately!")
-          else : print("What were you thinking when you left home today?!")
+          elif jacket in ["no", "nah", "nope"] : print("What were you thinking when you left home today?!")
 
        else : 
           rain = input("Is it raining ?").lower()
@@ -49,10 +49,10 @@ def weather_helper():
              umbrella = input("Do you have an umbrella ?").lower()
              if umbrella in ["yes", "yeah", "yup"] : 
                 print("Good job staying dry!")
-             else : print("You must enjoy getting wet!")      
+             elif umbrella in ["no", "nah", "nope"] : print("You must enjoy getting wet!")      
 
     elif temperature > 90 : 
       air_conditioning = input("Do you have air conditioning ?").lower()
       if air_conditioning in ["yes", "yeah", "yup"] : 
        print("Stay cool indoors.")
-      else : print("I hope you have a fan.")
+      elif air_conditioning in ["no", "nah", "nope"] : print("I hope you have a fan.")
