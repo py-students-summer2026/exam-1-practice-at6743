@@ -55,7 +55,7 @@ def play_game() :
     result1 = get_guess(5)
     if result1 == -1 : 
         print("Invalid response!")
-        return 
+        return # so that -1 as integer is not considered in final calculation
     
     elif result1 == True : 
         print("Correct!")
