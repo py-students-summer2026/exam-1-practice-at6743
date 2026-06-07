@@ -16,7 +16,7 @@ def main():
     """
 
     # for example... the following line will call the bark() function in problem_set_1 whenever this main.py file is run.
-    bark()
+    bark_with_validation()
 
 
 # call the main function
